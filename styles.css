@@ -1,0 +1,50 @@
+
+*{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+.calculadora {
+    color: white;
+    background-color: rgba(0, 90, 0, 0.527);
+    display: block;
+    width: 350px;
+    height: 500px;
+    border: rgba(0, 90, 0, 0.527);
+    border-radius: 25px;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    top:100px;
+}
+
+
+input {
+    inline-size: 350px;
+    color: white;
+    padding: 2px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+input:hover{
+    background: rgba(255, 255, 255, 0.205);
+    border-radius: 25px;
+    transition: 0s ease-in-out;
+}
+ 
+button {
+    font-size: 1.5em;
+    color: white;
+    background: none;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+    outline: none;
+}
+
+button:hover {
+    text-shadow: 7px 7px 5px white;
+    transition: 0.2s ease-in-out;
+    
+}
